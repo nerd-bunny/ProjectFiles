@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo App</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <!-- PASTE SCRIPT TAG FROM FIREBASE HERE-->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCfHHmZiAZm-WtgHjMv3j52wH2tB7a_6-E",
+          authDomain: "fir-app-4fe7b.firebaseapp.com",
+          projectId: "fir-app-4fe7b",
+          storageBucket: "fir-app-4fe7b.appspot.com",
+          messagingSenderId: "644230742358",
+          appId: "1:644230742358:web:cee82f6526c881365196f7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <section id="out">
+        <button id="inBtn">Sign In Using Google</button>
+    </section>
+    <section id="in" hidden="true">
+        <div id="uid"></div>
+        <button id="outBtn">Sign Out of Google</button>
+        <input  id="nameData" type="text">
+        <button id="randomName">Generate Random Name</button>
+        <ul id="data">
+        </ul>
+    </section>
+</body>
+</html>
