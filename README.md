@@ -1,4 +1,8 @@
 # ProjectFiles
+This is the completed and working project files for the in-class demonstation project.
+
+COMP2068: Javascript Frameworks
+
  Some commands to run in Terminal are:
  
  To install firebase tools globally: npm i firebase-tools -g
